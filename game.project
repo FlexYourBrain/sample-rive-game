@@ -1,10 +1,10 @@
 [project]
 title = RiveGame
-dependencies#0 = https://github.com/defold/extension-rive/archive/refs/tags/3.0.0.zip
+dependencies#0 = https://github.com/defold/extension-rive/archive/refs/tags/3.7.0.zip
 
 [bootstrap]
 main_collection = /game/game.collectionc
-render = /render/rive.renderc
+render = /render/rive_custom.renderc
 
 [input]
 game_binding = /input/game.input_bindingc
@@ -25,6 +25,7 @@ scale = 0.02
 default_texture_min_filter = linear
 default_texture_mag_filter = linear
 max_draw_calls = 8000
+opengl_version_hint = 42
 
 [script]
 shared_state = 1
